@@ -20,6 +20,7 @@ header {
     border-bottom-width: 1px;
     border-bottom-style: solid;
     border-bottom-color: rgb(230, 230, 230);
+    box-shadow: 0 6px 20px 0 rgba(174, 209, 255, 0.274);
 }
 
 ul {
@@ -79,10 +80,15 @@ h1 {
 
 .member-cards img {
     width: 380px;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
 }
 
 .member-cards div {
     width: 380px;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+    box-shadow: 0 6px 20px 0 rgba(174, 209, 255, 0.274);
 }
 
 .member-cards {
@@ -96,4 +102,49 @@ h1 {
     justify-content: center;
     align-items: center;
     display: flex;
+}
+
+.name {
+    font-size: 22px;
+    font-weight: 600;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 0;
+}
+
+.role {
+    color: rgb(47, 128, 237);
+    background-color: rgb(216, 231, 252);
+    font-size: 12px;
+    font-weight: 600;
+    border-radius: 15px;
+    text-transform: uppercase;
+    width: 60px;
+    height: 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 12px;
+    padding-right: 12px;
+    margin-left: 20px;
+}
+
+.bio {
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 16px;
+}
+
+.member-button {
+    padding: 8px 17px 8px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    margin-left: 20px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(47, 128, 237);
+    font-size: 15px;
+    font-weight: 500;
+    border-radius: 5px;
+    border: none;
 }
