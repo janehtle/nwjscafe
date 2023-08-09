@@ -34,6 +34,10 @@ ul {
     font-weight: 500;
 }
 
+.logo, .sign-up, .center-list, .right-list li:hover {
+    cursor: pointer;
+}
+
 .sign-up {
     background-color: #F49A40;
     color: #FFFFFF;
@@ -370,4 +374,8 @@ a:visited {
     font-size: 15px;
     margin-top: 24px;
     margin-bottom: 24px;
+}
+
+.agreement a {
+    color: rgb(47, 128, 237);
 }
