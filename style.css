@@ -1,7 +1,8 @@
 body {
     color: rgb(38, 38, 38);
     padding-top: 80px;
-    padding-bottom: 80px;
+    padding-bottom: 20px;
+    margin-bottom: 0;
     font-family: "Inter",-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif;
 }
 
@@ -261,4 +262,112 @@ div > h4 {
 .box-four > p {
     font-size: 16px;
     margin-top: 0;
+}
+
+main {
+    border-bottom: solid 1px rgba(238, 233, 233, 0.945);
+}
+
+.pre-footer {
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+    padding-top: 80px;
+    padding-bottom: 40px;
+}
+
+.left-column {
+    font-size: 16px;
+    width: 416px;
+    padding-right: 25px;
+}
+
+.left-column > p {
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+
+.signature {
+    font-weight: 700;
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+
+.right-column {
+    display: flex;
+    padding-left: 25px;
+}
+
+h5 {
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.company > ul {
+    padding-left: 0;
+}
+
+.right-column > div {
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 184px;
+}
+
+.sites > ul {
+    padding-left: 0;
+}
+
+.resources > ul {
+    padding-left: 0;
+}
+
+.filler-list > ul {
+    padding-left: 0;
+}
+
+.target-list li {
+    margin-top: 12px;
+    margin-bottom: 12px;
+    font-size: 15px;
+}
+
+.target-list li:hover {
+    cursor: pointer;
+}
+
+footer {
+    display: flex;
+    border-top: 1px solid rgba(238, 233, 233, 0.945);
+    justify-content: space-between;
+    width: 1200px;
+    margin-left: 290px;
+    margin-right: 200px;
+    padding-top: 20px;
+}
+
+.socials {
+    padding-left: 0;
+    font-size: 24px;
+}
+
+a {
+    margin-right: 20px;
+    text-decoration: none;
+}
+
+a:hover {
+    cursor: pointer;
+}
+
+a:visited {
+    color: black;
+}
+
+.timestamp {
+    color: rgb(163, 161, 161);
+    font-size: 15px;
+    margin-top: 24px;
+    margin-bottom: 24px;
 }
